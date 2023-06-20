@@ -7,6 +7,8 @@ import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import RemainingBudget from './components/Remaining';
 import CurrentCurrency from './components/Currency';
+
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const App = () => {
     return (
         <AppProvider>
